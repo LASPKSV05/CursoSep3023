@@ -9,10 +9,10 @@ public class PruebaSelenium {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		WebDriver driver=new ChromeDriver();
-		driver.get("https://www.google.com");
+		//driver.get("https://www.google.com");
 		
 		//Ejecucion de una pagina en .net 
-		//driver.get("https://simifranquiciaswebapp.azurewebsites.net/");
+		driver.get("https://simifranquiciaswebapp.azurewebsites.net/");
 
 	}
 
